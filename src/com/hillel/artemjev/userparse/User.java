@@ -1,7 +1,7 @@
 package com.hillel.artemjev.userparse;
 
-
 import java.util.Objects;
+
 
 public class User {
 
@@ -9,20 +9,10 @@ public class User {
     private String nickname;
     private String passwod;
 
-//    public User(String username) {
-//        this.username = username;
-//        this.nickname = username;
-//    }
-//
-//    public User(String username, String nickname) {
-//        this.username = username;
-//        this.nickname = nickname;
-//    }
-
-    public User(String username, String nickname, String passwod) {
+    public User(String username, String nickname, String password) {
         this.username = username;
         this.nickname = nickname;
-        this.passwod = passwod;
+        this.passwod = password;
     }
 
     public String getUsername() {
